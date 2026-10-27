@@ -1,0 +1,103 @@
+/* ===== ETAPA 4 — Fundo e tipografia ===== */
+body {
+  background-color: #f8f5f0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+/* ===== ETAPA 5 — Título, menu e links ===== */
+h1 {
+  color: #0d9488;
+  text-align: center;
+}
+
+nav {
+  background-color: #0f172a;
+  padding: 12px 16px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ===== ETAPA 6 — Espaçamento, linhas e tabela ===== */
+p {
+  margin-bottom: 14px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #d6cdbf;
+  margin: 18px 0;
+}
+
+table {
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+  border: 1px solid #94a3b8;
+}
+
+th {
+  background-color: #0d9488;
+  color: #ffffff;
+}
+
+/* ===== ETAPA 7 — Formulário em cartão ===== */
+form {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 420px;
+  margin: 20px auto;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+}
+
+/* ===== ETAPA 8 — Menu em linha e botão ===== */
+nav {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 0;
+}
+
+nav a {
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  color: #5eead4;
+}
+
+button {
+  background-color: #0d9488;
+  color: #ffffff;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f766e;
+}
+
+/* ===== ETAPA 9 — Acabamento ===== */
+nav {
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.2);
+}
+
+h2 {
+  color: #0f766e;
+  margin-top: 26px;
+}
